@@ -1,0 +1,17 @@
+{
+    "SamplingFrequency": 1882.453362622982,
+    "StartTime": 0,
+    "Columns": [
+        "biodex"
+    ],
+    "Manufacturer": "Biodex System 3 (Biodex Medical Systems, Inc, Shirley, New York)",
+    "biodex": {
+        "Description": "Continuous recording of biodex position",
+        "Units": "degree"
+    },
+    "PhysioType": "generic",
+    "TaskName": "full",
+    "SoftwareVersions": "n/a",
+    "DeviceSerialNumber": "n/a",
+    "ManufacturersModelName": "n/a"
+}
