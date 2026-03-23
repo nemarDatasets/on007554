@@ -1,0 +1,17 @@
+{
+    "SamplingFrequency": 1999.8413599211046,
+    "StartTime": 0,
+    "Columns": [
+        "ecg"
+    ],
+    "Manufacturer": "Delsys, USA",
+    "ecg": {
+        "Description": "Continuous recording using Avanti EKG wireless sensor",
+        "Units": "mV"
+    },
+    "PhysioType": "generic",
+    "TaskName": "mentalarithmetic",
+    "SoftwareVersions": "n/a",
+    "DeviceSerialNumber": "n/a",
+    "ManufacturersModelName": "n/a"
+}

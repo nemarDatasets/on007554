@@ -1,0 +1,17 @@
+{
+    "SamplingFrequency": 1917.738012353437,
+    "StartTime": 0,
+    "Columns": [
+        "emg"
+    ],
+    "Manufacturer": "Delsys, USA",
+    "emg": {
+        "Description": "Continuous recording using Trigno wireless EMG system of right biceps brachii",
+        "Units": "mV"
+    },
+    "PhysioType": "generic",
+    "TaskName": "passivemotor",
+    "SoftwareVersions": "n/a",
+    "DeviceSerialNumber": "n/a",
+    "ManufacturersModelName": "n/a"
+}
