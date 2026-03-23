@@ -5,7 +5,7 @@
     "Authors": [
         "Zaineb Ajra",
         "Grégoire Vergotte",
-        "Stéphane Perrey", 
+        "Stéphane Perrey",
         "Lilian Evra",
         "Simon Pla",
         "Gérard Dray",
@@ -26,5 +26,6 @@
     ],
     "Funding": [
         "Z.A. received a doctoral fellowship from AXIAUM Université Montpellier-ISDM (ANR-20-THIA-0005-01) and ED I2S in France. G.V. was supported by the Occitanie Region, France, through the SKYPHYSIA project."
-    ]
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds007554.v1.0.0"
 }
