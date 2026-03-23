@@ -1,0 +1,16 @@
+{
+    "SamplingFrequency": 148.14041139445504,
+    "StartTime": 0,
+    "Columns": [
+        "pushbutton"
+    ],
+    "pushbutton": {
+        "Units": "V"
+    },
+    "PhysioType": "generic",
+    "TaskName": "nback",
+    "SoftwareVersions": "n/a",
+    "DeviceSerialNumber": "n/a",
+    "Manufacturer": "n/a",
+    "ManufacturersModelName": "n/a"
+}
