@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Multimodal dataset from the CMx7-MM Experiment",
+  "description": "A multimodal neurophysiological dataset acquired from 30 healthy adults performing a hierarchy of cognitive, motor, and combined cognitive-motor tasks. The dataset includes concurrent EEG, functional near-infrared spectroscopy (fNIRS), electrocardiography, electromyography, and behavioral measures across three sessions. This resource enables investigation of neural and physiological mechanisms underlying cognitive-motor integration and task complexity effects.",
+  "methods_description": "Data were collected from 30 right-handed healthy adults (12 males, 18 females) across three sessions of approximately 30 minutes each. Participants performed seven tasks in randomized order: mental arithmetic, 2-back auditory task, motor imagery, passive motor movement (Biodex-driven), active motor movement, combined N-back arithmetic, and full cognitive-motor task. EEG was recorded using 32 channels in the 10-20 system. fNIRS montages covered prefrontal and sensorimotor regions. Physiological signals included ECG (Delsys Trigno) and torque/kinematic measures from the Biodex robotic arm. Subjective measures included Karolinska Sleepiness Scale ratings and cognitive load assessments. All recordings are raw exports without offline preprocessing.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,12 +16,30 @@
     "Jacky Montmain": {},
     "Binbin Xu": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007554.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "cognitive-motor integration"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "N-back task"
+    },
+    {
+      "term": "mental arithmetic"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007554",
       "identifier_type": "URL",
@@ -34,11 +54,16 @@
       "identifier": "10.18112/openneuro.ds007554",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007554.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "ANR (Agence Nationale de la Recherche)",
+      "funder_name": "ANR",
       "award_number": "ANR-20-THIA-0005-01",
       "award_title": "AXIAUM Université Montpellier-ISDM doctoral fellowship"
     },
@@ -48,14 +73,14 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "eeg",
     "nirs"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "4.5 GB (1740 files)"
   ],
   "formats": [
     ".edf",
@@ -63,56 +88,8 @@
     ".json",
     ".md",
     ".snirf",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This multimodal neuroimaging dataset comprises simultaneous EEG, functional near-infrared spectroscopy (fNIRS), and physiological recordings (ECG and EMG) from 30 healthy adults performing a hierarchy of cognitive, motor, and combined cognitive-motor tasks. The dataset includes seven task conditions ranging from isolated mental arithmetic and motor imagery to integrated cognitive-motor challenges, along with behavioral measures (push-button responses, Biodex torque and kinematic data) and subjective ratings of sleepiness and cognitive load. Raw data from three sessions per participant are organized according to BIDS standards, providing a comprehensive resource for investigating neural mechanisms underlying cognitive-motor integration.",
-  "methods_description": "Data were acquired from 30 right-handed healthy adults across three sessions (~30 minutes each). EEG was recorded using 32 channels in the 10-20 system; fNIRS covered prefrontal and sensorimotor regions. Physiological signals included ECG (Delsys Trigno) and EMG. Participants performed seven tasks in randomized order: mental arithmetic, 2-back auditory task, motor imagery, passive motor (Biodex-driven), active motor, combined N-back arithmetic, and full cognitive-motor task. Auditory stimuli (digits 0-9 and beeps) were delivered via MATLAB/Psychtoolbox. Subjective measures included Karolinska Sleepiness Scale ratings and cognitive load assessments. All recordings are raw exports without offline preprocessing.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "fNIRS"
-    },
-    {
-      "term": "ECG"
-    },
-    {
-      "term": "EMG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "cognitive-motor integration"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    },
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "mental arithmetic"
-    },
-    {
-      "term": "N-back task"
-    },
-    {
-      "term": "cognitive load"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "sensorimotor"
-    },
-    {
-      "term": "Biodex"
-    }
-  ],
-  "source_hash": "3d3776807905c583099cd5dddfc8bf0cb40794b7c770ed9fc540dcd296566b43"
+  "source_hash": "3efda2fba5a87f0af1046f945e00a830af33d38f81a32d12f38098e795c266bf"
 }
