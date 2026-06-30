@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007554-blue)](https://doi.org/10.82901/nemar.on007554)
+
 # Multimodal EEG-fNIRS-physio dataset during hierarchical cognitive-motor tasks
 
 This repository contains a raw multimodal dataset acquired in healthy adults performing a hierarchy of cognitive, motor, and combined cognitive-motor tasks. Data include neurophysiological (EEG, fNIRS), physiological (ECG and EMG), behavioral (push-button, torque), and subjective measures (sleepiness and cognitive load ratings), organized according to the Brain Imaging Data Structure (BIDS).
@@ -64,18 +66,18 @@ Brief task descriptions:
 - **MI (Motor imagery)**  
   Participants imagine moving the right arm (no actual movement) when they hear a beep.  
   - 18 targets  
-  - Inter-target interval: 10 ± 3 s
+  - Inter-target interval: 10 ï¿½ 3 s
 
 - **Pass-Mot (Passive motor)**  
-  The participant’s right arm is moved by the Biodex device (external and internal rotation, 60° range).  
+  The participantï¿½s right arm is moved by the Biodex device (external and internal rotation, 60ï¿½ range).  
   - Movement duration: 2 s  
   - 18 movements per task  
-  - Inter-movement interval: 10 ± 3 s
+  - Inter-movement interval: 10 ï¿½ 3 s
 
 - **Act-Mot (Active motor)**  
   Participants actively move the robotic arm in response to beeps.  
   - 18 movements per task  
-  - Inter-target interval: 10 ± 3 s
+  - Inter-target interval: 10 ï¿½ 3 s
 
 - **NB-MA (N-back arithmetic)**  
   Participants press a button when the running sum of the last digits corresponds to the 2-back condition (combined N-back and arithmetic).  
