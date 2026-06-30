@@ -1,0 +1,43 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007554",
+  "source": "openneuro",
+  "source_id": "ds007554",
+  "title": "Multimodal dataset from the CMx7-MM Experiment",
+  "authors": {
+    "Zaineb Ajra": {},
+    "Grégoire Vergotte": {},
+    "Stéphane Perrey": {},
+    "Lilian Evra": {},
+    "Simon Pla": {},
+    "Gérard Dray": {},
+    "Jacky Montmain": {},
+    "Binbin Xu": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007554.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "beh",
+    "eeg",
+    "nirs"
+  ],
+  "datatypes": [
+    "beh",
+    "eeg",
+    "nirs"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Z.A. received a doctoral fellowship from AXIAUM Université Montpellier-ISDM (ANR-20-THIA-0005-01) and ED I2S in France. G.V. was supported by the Occitanie Region, France, through the SKYPHYSIA project."
+    }
+  ]
+}
