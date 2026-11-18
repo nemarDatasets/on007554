@@ -4,7 +4,7 @@
   "ManufacturersModelName": "octamon and octamon+",
   "TaskDescription": "Passive motor task (Biodex)",
   "Instructions": "Keep your arm relax and follow the biodex movement",
-  "SamplingFrequency": 10,
+  "SamplingFrequency": 50.0,
   "NIRSChannelCount": 16,
   "NIRSSourceOptodeCount": 16,
   "NIRSDetectorOptodeCount": 4,
@@ -22,5 +22,6 @@
   "CogPOID": "n/a",
   "SourceType": "LED",
   "DetectorType": "SiPD",
-  "RecordingDuration": 215.0200003138849
+  "RecordingDuration": 215.0200003138849,
+  "RecordingType": "continuous"
 }

@@ -22,5 +22,6 @@
   "CogPOID": "n/a",
   "SourceType": "LED",
   "DetectorType": "SiPD",
-  "RecordingDuration": 215.10207490112796
+  "RecordingDuration": 215.10207490112796,
+  "RecordingType": "continuous"
 }

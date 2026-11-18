@@ -95,3 +95,9 @@ Subjective ratings:
 
 - Karolinska Sleepiness Scale (KSS) before each session  
 - Mental load ratings after each task (9-point Likert and visual analogue scale)
+
+## Contributed notes (version 1.0.1)
+
+- Optode position unit: the SNIRF files state LengthUnit mm, but the probe positions are not millimetres: the median source-detector distance is 4.06 file units, while the data descriptor gives inter-optode distances of 30 and 35 mm (doi:10.1038/s41597-026-08125-y, Methods, Data acquisition). The values are consistent with centimetres, so the optodes.tsv files added in version 1.0.1 declare cm.
+- Time unit: the SNIRF files declare the time unit "unknown". Read as seconds, the time axes give 10 Hz for sub-001 to sub-020 and 50 Hz for sub-021 to sub-030, the rates stated in the data descriptor (Usage Notes); from version 1.0.1 SamplingFrequency in nirs.json follows these rates.
+- Three channels.tsv files have no matching recording and keep their published duplicate names: sub-001 ses-03 task-full, sub-003 ses-01 task-nback and sub-006 ses-03 task-motorimagery.

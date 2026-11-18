@@ -4,7 +4,7 @@
   "ManufacturersModelName": "octamon and octamon+",
   "TaskDescription": "Mental arithmetic",
   "Instructions": "Calculate",
-  "SamplingFrequency": 10,
+  "SamplingFrequency": 50.0,
   "NIRSChannelCount": 16,
   "NIRSSourceOptodeCount": 16,
   "NIRSDetectorOptodeCount": 4,
@@ -22,5 +22,6 @@
   "CogPOID": "n/a",
   "SourceType": "LED",
   "DetectorType": "SiPD",
-  "RecordingDuration": 215.02000017137928
+  "RecordingDuration": 215.02000017137928,
+  "RecordingType": "continuous"
 }

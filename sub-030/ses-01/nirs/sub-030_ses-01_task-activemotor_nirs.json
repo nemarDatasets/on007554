@@ -4,7 +4,7 @@
   "ManufacturersModelName": "octamon and octamon+",
   "TaskDescription": "Active Motor task",
   "Instructions": "Move right arm on the beep",
-  "SamplingFrequency": 10,
+  "SamplingFrequency": 50.0,
   "NIRSChannelCount": 16,
   "NIRSSourceOptodeCount": 16,
   "NIRSDetectorOptodeCount": 4,
@@ -22,5 +22,6 @@
   "CogPOID": "n/a",
   "SourceType": "LED",
   "DetectorType": "SiPD",
-  "RecordingDuration": 215.0200001562439
+  "RecordingDuration": 215.0200001562439,
+  "RecordingType": "continuous"
 }

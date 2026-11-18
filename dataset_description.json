@@ -32,5 +32,9 @@
     "Z.A. received a doctoral fellowship from AXIAUM Université Montpellier-ISDM (ANR-20-THIA-0005-01) and ED I2S in France. G.V. was supported by the Occitanie Region, France, through the SKYPHYSIA project."
   ],
   "DatasetDOI": "10.82901/nemar.on007554",
-  "Version": "1.0.0"
+  "Version": "1.0.1",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1038/s41597-026-08125-y"
+  ],
+  "HowToAcknowledge": "Please cite the associated data descriptor (doi:10.1038/s41597-026-08125-y)."
 }

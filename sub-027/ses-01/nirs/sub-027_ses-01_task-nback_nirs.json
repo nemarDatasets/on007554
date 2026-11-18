@@ -4,7 +4,7 @@
   "ManufacturersModelName": "octamon and octamon+",
   "TaskDescription": "auditory 2-back task with non overlap numbers between 0 to 9",
   "Instructions": "click on the push button (2 back)",
-  "SamplingFrequency": 10,
+  "SamplingFrequency": 50.0,
   "NIRSChannelCount": 16,
   "NIRSSourceOptodeCount": 16,
   "NIRSDetectorOptodeCount": 4,
@@ -22,5 +22,6 @@
   "CogPOID": "n/a",
   "SourceType": "LED",
   "DetectorType": "SiPD",
-  "RecordingDuration": 215.01999992758292
+  "RecordingDuration": 215.01999992758292,
+  "RecordingType": "continuous"
 }
